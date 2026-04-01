@@ -1,0 +1,323 @@
+@media screen and (max-width: 1240px) {
+    header {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    header img {
+        margin-bottom: 1em;
+    }
+
+    header li {
+        margin-bottom: 1em;
+    }
+
+    section.home .container {
+        margin: 0 auto;
+    }
+
+    /* .home__center-area {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .home__center-area .text-1 {
+        font-size: 36px
+    }
+
+    .home__center-area .text-2 {
+        font-size: 82px
+    }
+
+    .home__center-area .text-3 {
+        font-size: 24px
+    }
+
+    .home__icon-area img {
+        width: 120px;
+    }
+
+    .question__texts h2 {
+        font-size: 46px;
+    }
+
+    .question__texts p {
+        font-size: 20px;
+    }
+
+    .line__titles div {
+        margin: 0 2em;
+    }
+
+    .line__titles h1 {
+        font-size: 58px;
+    }
+
+    .line__titles h2 {
+        font-size: 28px;
+    }
+
+    section.business {
+        background-position-x: -700px;
+        background-position-y: -150px;
+        /* background-size: 250%; */
+    }
+
+    section.business .texts {
+        margin-top: 40em;
+    }
+
+    section.business h2 {
+        font-size: 36px;
+    }
+
+    section.family {
+        background-position-y: 0%;
+        background-position-x: 45%;
+    }
+
+    footer .area_1 h1 {
+        font-size: 40px;
+    }
+
+    footer .container {
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    section {
+        min-height: 0;
+    }
+
+    .home__center-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home__center-area .text-1 {
+        font-size: 32px;
+    }
+
+    .home__center-area .text-2 {
+        font-size: 82px;
+    }
+
+    .home__center-area .text-3 {
+        font-size: 20px;
+    }
+
+    .home__center-area div:first-child {
+        min-width: 0;
+        width: 90%;
+    }
+
+    .home__center-area div:last-child {
+        flex-direction: row;
+        margin: 2em 0;
+        gap: 2em;
+        width: auto;
+    }
+
+    .question .lettuces {
+        justify-content: center;
+        align-items: start;
+    }
+
+    .question__lettuce:first-child,
+    .question__lettuce:last-child {
+        display: none;
+    }
+
+    .question__lettuce {
+        margin-top: 6em;
+    }
+
+    .question__invisible {
+        display: none;
+    }
+
+    .question__texts {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+
+    .question__texts>div:last-child {
+        margin-top: 4em;
+    }
+
+
+    .line__titles h1 {
+        font-size: 32px;
+    }
+
+    .line__titles h2 {
+        font-size: 22px;
+    }
+
+    section.line .card {
+        width: 60%;
+        padding: 1.5em;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 18px;
+        letter-spacing: 0.2em;
+    }
+
+    .card button {
+        font-size: 18px;
+    }
+
+    .line__arrows {
+        position: relative;
+        gap: 4em;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        transform: translateY(-20px);
+    }
+
+    .line__arrows button:first-child {
+        transform: translateX(0);
+        position: relative;
+    }
+
+    .line__arrows button:last-child {
+        transform: translateX(0);
+        position: relative;
+    }
+
+    section.tech .titles {
+        flex-direction: column;
+    }
+
+    section.tech h1 {
+        font-size: 46px;
+    }
+
+    section.tech h2 {
+        font-size: 34px;
+        margin: 0.2em 0;
+    }
+
+
+    section.tech h3 {
+        text-align: center;
+    }
+
+    section.tech p {
+        font-size: 20px;
+    }
+
+    .tech__element {
+        flex-direction: column;
+        gap: 0;
+        margin-top: 4em;
+        /* align-items: start; */
+    }
+
+    .tech__element img {
+        width: 150px;
+    }
+
+    section.business button {
+        font-size: 20px;
+        border-radius: 10px;
+        align-self: center;
+    }
+
+
+    section.business h2 {
+        font-size: 20px;
+
+    }
+
+    .benefits__card h1 {
+        font-size: 64px;
+    }
+
+    .benefits__card p {
+        font-size: 16px;
+    }
+
+    section.business {
+        background-position-x: 38%;
+        background-position-y: -100px;
+        background-size: 1800px;
+    }
+
+    section.business .texts {
+        margin-top: 30em;
+    }
+
+    section.family .texts {
+        margin-top: 25em;
+    }
+
+    footer .container>div {
+        flex-direction: column;
+    }
+
+
+    section.family {
+        background-position-y: -35px;
+        background-position-x: 45%;
+        background-size: 1500px;
+        /* background-size: 350%; */
+    }
+
+    section.family .logo {
+        display: none;
+    }
+
+    .benefits__card.adjust {
+        padding: 0.75em;
+    }
+
+    footer .area_1 h1 {
+        font-size: 26px;
+    }
+
+    footer .area_1 {
+        gap: 1em;
+    }
+
+
+    .nav__redes-sociais {
+        margin-top: 2em;
+    }
+
+    footer .area_1 img {
+        width: 150px;
+        object-fit: contain;
+    }
+
+    footer .area_2 {
+        margin: 0;
+    }
+
+    footer .area_2>div {
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    footer .newsletter h3 {
+        font-size: 22px;
+    }
+
+    footer .area_3 {
+        gap: 2em;
+    }
+
+    footer .area_2>div::before {
+        display: none;
+    }
+}
