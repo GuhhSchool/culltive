@@ -249,9 +249,10 @@
     }
 
     section.business {
+        /* background: url('../../assets/backgrounds/background-business.png') black; */
         background-position-x: 38%;
         background-position-y: -100px;
-        background-size: 1800px;
+        background-size: 1600px;
     }
 
     section.business .texts {

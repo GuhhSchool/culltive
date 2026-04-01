@@ -718,7 +718,7 @@ section.rating {
 
 /* SECTION: business */
 section.business {
-    background-image: url('../../assets/backgrounds/background-business.png'), linear-gradient(to left, rgb(26, 26, 26) 0%, black 10%, black 90%, rgb(26, 26, 26) 100%);
+    background: url('../../assets/backgrounds/background-business.png') black;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -736,14 +736,6 @@ section.business .logo {
     width: 220px;
     z-index: 0;
 }
-
-/* section.business .curved-text {
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-450px, 100px);
-} */
 
 section.business .texts {
     display: flex;
@@ -894,20 +886,12 @@ section.business button:hover {
 
 /* SECTION: family */
 section.family {
-    background: url('../../assets/backgrounds/background-family.png'), linear-gradient(to left, rgb(26, 26, 26) 0%, black 10%, black 90%, rgb(26, 26, 26) 100%);
+    background: url('../../assets/backgrounds/background-family.png') black;
     background-position-x: center;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
 }
-
-/* section.family .curved-text {
-    width: 60%;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-380px, 50px);
-} */
 
 section.family .container {
     position: relative;
